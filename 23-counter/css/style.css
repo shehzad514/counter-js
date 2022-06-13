@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1
+{
+    font-size: 80px;
+}
+#count
+{
+    font-size: 70px;
+}
+.btn
+{
+    padding: 13px 15px;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: ease 0.5s all;
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+}
